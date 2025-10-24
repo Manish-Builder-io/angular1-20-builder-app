@@ -1,6 +1,31 @@
 # Angular20BuilderApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.7.
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.7 and upgraded to Angular 20.
+
+## Features
+
+This Angular 20 application includes:
+
+- **Builder.io Integration**: Full integration with Builder.io's visual editor for content management
+- **Server-Side Rendering (SSR)**: Configured for optimal performance and SEO
+- **Custom Components**: Pre-built accessible components for semantic lists and content management
+- **Modern Angular**: Built with Angular 20's latest features and best practices
+
+## Builder.io Custom Components
+
+The project includes several custom Builder.io components:
+
+- **AccessibleList**: Semantic list component with full accessibility support
+- **SemanticListContainer & SemanticListItem**: Two-component approach for flexible list management
+- **SimpleList**: Single-component list with Builder.io blocks integration
+- **Counter**: Example interactive component
+
+## Getting Started with Builder.io
+
+1. Set your Builder.io API key in the environment variables
+2. Use the custom components in Builder.io's visual editor
+3. Configure semantic lists with proper accessibility attributes
+4. Leverage the repeater functionality for dynamic content
 
 ## Development server
 

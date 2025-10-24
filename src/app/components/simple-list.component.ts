@@ -34,7 +34,7 @@ import type {
           <blocks
             [blocks]="item.blocks || []"
             [path]="'items.' + i + '.blocks'"
-            [parent]="builderBlock?.id"
+            [parent]="builderBlock.id"
             [context]="builderContext"
             [registeredComponents]="builderComponents">
           </blocks>
@@ -55,7 +55,7 @@ import type {
           <blocks
             [blocks]="item.blocks || []"
             [path]="'items.' + i + '.blocks'"
-            [parent]="builderBlock?.id"
+            [parent]="builderBlock.id"
             [context]="builderContext"
             [registeredComponents]="builderComponents">
           </blocks>
@@ -72,7 +72,7 @@ import type {
             <blocks
               [blocks]="item.termBlocks || []"
               [path]="'items.' + i + '.termBlocks'"
-              [parent]="builderBlock?.id"
+              [parent]="builderBlock.id"
               [context]="builderContext"
               [registeredComponents]="builderComponents">
             </blocks>
@@ -81,7 +81,7 @@ import type {
             <blocks
               [blocks]="item.definitionBlocks || []"
               [path]="'items.' + i + '.definitionBlocks'"
-              [parent]="builderBlock?.id"
+              [parent]="builderBlock.id"
               [context]="builderContext"
               [registeredComponents]="builderComponents">
             </blocks>
@@ -103,7 +103,7 @@ import type {
             <blocks
               [blocks]="item.blocks || []"
               [path]="'items.' + i + '.blocks'"
-              [parent]="builderBlock?.id"
+              [parent]="builderBlock.id"
               [context]="builderContext"
               [registeredComponents]="builderComponents">
             </blocks>
