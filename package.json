@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "concurrently \"ng serve\" \"npx builder-dev-tools\"",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-20-builder-app": "node dist/angular-20-builder-app/server/server.mjs"
+    "serve:ssr:angular-20-builder-app": "node dist/angular-20-builder-app/server/server.mjs",
+    "builder-dev": "concurrently \"ng serve\" \"npx builder-dev-tools\""
   },
   "private": true,
   "dependencies": {
@@ -21,6 +22,9 @@
     "@angular/platform-server": "^19.1.0",
     "@angular/router": "^19.1.0",
     "@angular/ssr": "^19.1.7",
+    "@builder.io/dev-tools": "^1.16.6",
+    "@builder.io/sdk-angular": "^0.22.3",
+    "concurrently": "^9.2.1",
     "express": "^4.18.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
